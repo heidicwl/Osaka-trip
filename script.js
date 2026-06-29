@@ -1,3 +1,5 @@
+<script src="script.js"></script>
+
 // 1. 返回頂部按鈕與行李清單記憶功能
 const topBtn = document.getElementById('top');
 window.addEventListener('scroll', () => { topBtn.style.display = scrollY > 500 ? 'block' : 'none' });
