@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年 - 大阪旅遊小本本</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased">
+
+    <header class="bg-rose-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div>
+                <span class="text-xs bg-rose-700 px-2 py-1 rounded text-rose-100 font-mono">9天8夜｜2026/12/26–2027/01/03</span>
+                <h1 class="text-xl font-bold mt-1">大阪・京都・奈良・宇治・神戶旅遊手冊</h1>
+            </div>
+            <nav class="flex flex-wrap gap-4 text-sm font-medium text-rose-200">
+                <a href="#flights" class="hover:text-white transition">航班</a>
+                <a href="#itinerary" class="hover:text-white transition">行程</a>
+                <a href="#hotels" class="hover:text-white transition">飯店</a>
+                <a href="#packing" class="hover:text-white transition">物品</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-8 space-y-12">
+
+        <section id="flights" class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+            <h2 class="text-xl font-bold text-stone-900 mb-4 flex items-center gap-2">
+                ✈️ 航班資訊（泰國獅航）
+            </h2>
+            <div class="grid sm:grid-cols-2 gap-6">
+                <div class="p-4 bg-stone-50 rounded-xl border border-stone-100">
+                    <span class="text-xs font-bold text-rose-600 uppercase tracking-wider">去程 SL396</span>
+                    <div class="mt-2 text-sm text-stone-600 space-y-1">
+                        <p class="font-semibold text-stone-900">2026/12/26 (六) 08:55</p>
+                        <p class="text-xs">台灣桃園國際機場 (T1)</p>
+                        <p class="my-1 text-xs text-rose-500 font-mono">⏱ 飛行 02:35</p>
+                        <p class="font-semibold text-stone-900">2026/12/26 (六) 12:30</p>
+                        <p class="text-xs">關西國際機場 (T1)</p>
+                    </div>
+                </div>
+                <div class="p-4 bg-stone-50 rounded-xl border border-stone-100">
+                    <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider">回程 SL397</span>
+                    <div class="mt-2 text-sm text-stone-600 space-y-1">
+                        <p class="font-semibold text-stone-900">2027/01/03 (日) 13:30</p>
+                        <p class="text-xs">關西國際機場 (T1)</p>
+                        <p class="my-1 text-xs text-emerald-500 font-mono">⏱ 飛行 02:50</p>
+                        <p class="font-semibold text-stone-900">2027/01/03 (日) 15:20</p>
+                        <p class="text-xs">台灣桃園國際機場 (T1)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="itinerary" class="space-y-6">
+            <h2 class="text-xl font-bold text-stone-900 px-2 flex items-center gap-2">
+                📅 每日詳細行程
+            </h2>
+            
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 01</span>
+                        <span class="text-xs font-semibold text-stone-400">12/26 (Sat)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：大阪 / 未定</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：未定</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 02</span>
+                        <span class="text-xs font-semibold text-stone-400">12/27 (Sun)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：未定</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：未定</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 03</span>
+                        <span class="text-xs font-semibold text-stone-400">12/28 (Mon)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：未定</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：未定</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 04</span>
+                        <span class="text-xs font-semibold text-stone-400">12/29 (Tue)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：大阪</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：難波南JUNCTION</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 05</span>
+                        <span class="text-xs font-semibold text-stone-400">12/30 (Wed)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：大阪</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：難波南JUNCTION</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 06</span>
+                        <span class="text-xs font-semibold text-stone-400">12/31 (Thu)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：大阪 (跨年夜 🎇)</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：難波南JUNCTION</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 07</span>
+                        <span class="text-xs font-semibold text-stone-400">01/01 (Fri)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：大阪 (新年 🎍)</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：難波南JUNCTION</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 08</span>
+                        <span class="text-xs font-semibold text-stone-400">01/02 (Sat)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">城市：大阪</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b></p>
+                    <p><b>詳細內容：</b></p>
+                    <p class="text-rose-700"><b>注意事項：</b></p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：難波南JUNCTION</div>
+            </article>
+
+            <article class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 pb-3">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-xl font-black text-rose-600 font-mono">Day 09</span>
+                        <span class="text-xs font-semibold text-stone-400">01/03 (Sun)</span>
+                    </div>
+                    <span class="text-sm font-bold text-stone-700 bg-stone-100 px-3 py-1 rounded-full">關西機場 ✈ 桃園</span>
+                </div>
+                <div class="space-y-2 text-sm text-stone-600">
+                    <p><b>行程：</b>前往關西國際機場搭機平安歸國</p>
+                </div>
+                <div class="text-xs font-medium text-stone-500 bg-stone-50 p-2 rounded-lg">🏨 住宿：溫慢的家</div>
+            </article>
+        </section>
+
+        <section id="hotels" class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100 space-y-4">
+            <h2 class="text-xl font-bold text-stone-900 flex items-center gap-2">
+                🏨 已訂住宿資訊
+            </h2>
+            <div class="p-4 bg-stone-50 rounded-xl border border-stone-100">
+                <span class="text-xs font-bold text-rose-600 font-mono">12/29 - 1/03 (連住5晚)</span>
+                <h3 class="text-lg font-bold text-stone-900 mt-1">難波南JUNCTION</h3>
+                <p class="text-sm text-stone-600 mt-1"><b>地址：</b>2-chōme-9-9 Ebisuhonmachi, 浪速區, 556-0013 大阪市, 大阪府, 日本</p>
+                <p class="text-sm text-stone-600"><b>電話：</b>+81-8032299588</p>
+                <div class="mt-2 text-xs font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md inline-block">狀態：Double房型 / 已付 (TWD 12,100)</div>
+            </div>
+            <p class="text-xs text-stone-400">💡 提醒：12/26、12/27、12/28 的住宿目前顯示為「未定」，記得儘早安排唷！</p>
+        </section>
+
+        <section id="packing" class="bg-stone-900 text-stone-100 p-6 rounded-2xl shadow-sm">
+            <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+                🧳 攜帶物品檢查清單
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm">
+                <div>
+                    <h4 class="font-bold text-rose-400 mb-2">📄 重要文件</h4>
+                    <ul class="space-y-1 text-stone-400">
+                        <li>⬜ 護照</li>
+                        <li>⬜ 身份證+居留證</li>
+                        <li>⬜ 交通卡</li>
+                        <li>⬜ 日幣現金</li>
+                        <li>⬜ 機票</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-rose-400 mb-2">🔌 3C 產品</h4>
+                    <ul class="space-y-1 text-stone-400">
+                        <li>⬜ 轉接插頭</li>
+                        <li>⬜ 充電器+線</li>
+                        <li>⬜ 行動電源</li>
+                        <li>⬜ DJI Pocket 3</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-rose-400 mb-2">👕 個人衣物</h4>
+                    <ul class="space-y-1 text-stone-400">
+                        <li>⬜ 衣服 / 褲子</li>
+                        <li>⬜ 外套 / 圍巾</li>
+                        <li>⬜ 內衣褲 / 襪子</li>
+                        <li>⬜ 太陽眼鏡</li>
+                        <li>⬜ 折疊傘 / 藥品</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-rose-400 mb-2">🧴 盥洗保養</h4>
+                    <ul class="space-y-1 text-stone-400">
+                        <li>⬜ 保養品 / 防曬</li>
+                        <li>⬜ 化妝品 / 衛生棉</li>
+                        <li>⬜ 牙刷牙膏 / 面紙</li>
+                        <li>⬜ 隱眼+沖洗液</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 text-xs text-stone-400 bg-white border-t border-stone-100">
+        © 2026-2027 大阪跨年小本本 ． 預祝旅途愉快！
+    </footer>
+
+</body>
+</html>
