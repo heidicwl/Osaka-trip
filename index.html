@@ -47,7 +47,7 @@
                     <span class="tag">去程 SL396</span>
                     <div class="route">
                         <div><b>桃園機場 T1</b><span>12/26 (六) 08:55</span></div>
-                        <div class="plane">✈️飛行時長：<small>02h 35m</small></div>
+                        <div class="plane">✈️：<small>02h 35m</small></div>
                         <div><b>關西機場 T1</b><span>12/26 (六) 12:30</span></div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     <span class="tag" style="background:var(--brand2)">回程 SL397</span>
                     <div class="route">
                         <div><b>關西機場 T1</b><span>01/03 (日) 13:30</span></div>
-                        <div class="plane" style="color:var(--brand)">✈️飛行時長：<small>02h 50m</small></div>
+                        <div class="plane" style="color:var(--brand)">✈️：<small>02h 50m</small></div>
                         <div><b>桃園機場 T1</b><span>01/03 (日) 15:20</span></div>
                     </div>
                 </div>
@@ -291,14 +291,43 @@
 </div>
 </section>  
                 
-    <section id="foodmap">
-  <h2>必吃美食地圖</h2>
-  <p class="section-desc">點「開地圖」即可用 Google Maps 搜尋。店家營業時間會變，出發前再確認一次，才不會撲空到懷疑人生。</p>
-  <div class="food-grid">
-    <article class="food-card"><span>鎌倉</span><h3>豐島屋 鳩サブレー</h3><p>鎌倉經典伴手禮，適合買回去分同事，和平指數上升。</p><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=豊島屋 本店 鎌倉 鳩サブレー">開地圖</a></article>
-    <article class="food-card"><span>小町通</span><h3>鎌倉可樂餅</h3><p>邊走邊吃系小吃，適合小町通散策補血。</p><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=鎌倉 コロッケ 小町通り">開地圖</a></article>
-  </div>
-</section>   
+  <section id="foodmap">
+    <span class="section-kicker">Food Map</span>
+    <h2>必吃美食地圖</h2>
+    <p class="section-desc">點「開地圖」即可用 Google Maps 搜尋。店家營業時間會變，出發前再確認一次，才不會撲空到懷疑人生。</p>
+    
+    <div class="food-grid">
+        <article class="food-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span>道頓堀</span>
+                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 11:00–21:00</small>
+            </div>
+            <h3>大阪燒 美津の</h3>
+            <p>米其林推薦的老字號大阪燒！排隊要有心理準備，但那個厚實的麵香跟獨門醬汁絕對值得你罰站。</p>
+            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=美津の+大阪燒">開地圖</a>
+        </article>
+
+        <article class="food-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span>道頓堀</span>
+                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 11:00–22:00</small>
+            </div>
+            <h3>章魚燒 道頓堀 Kukuru</h3>
+            <p>剛起鍋內餡超軟糯！大塊章魚腳咬下去非常過癮，但一口塞絕對會被燙死，請分段食用以免在街頭噴淚。</p>
+            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=くくる+道頓堀">開地圖</a>
+        </article>
+
+        <article class="food-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span>黑門市場</span>
+                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 09:30–16:00</small>
+            </div>
+            <h3>黑門三平 (海鮮)</h3>
+            <p>大阪人的廚房！生魚片、超大干貝還有神戶牛串燒應有盡有，不過跨年年假期間（1/1-1/3）可能休息，記得提早去開吃！</p>
+            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=黑門三平">開地圖</a>
+        </article>
+    </div>
+</section>  
 
         <section id="hotels" style="margin-bottom:34px;">
             <span class="section-kicker">Accommodation</span>
@@ -322,7 +351,7 @@
     <!-- 大外層格線，負責將四大群組排成漂亮的卡片欄位 -->
     <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
         
-        <!-- 群組 1：重要文件 -->
+        <!-- 群組 1：📄 重要文件 -->
         <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
             <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">📄 重要文件</h4>
             <label><input type="checkbox"><span>護照</span></label>
@@ -334,7 +363,7 @@
             <label><input type="checkbox"><span>飯店憑證</span></label>
         </div>
 
-        <!-- 群組 2：3C 產品 -->
+        <!-- 群組 2：🔌3C 產品 -->
         <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
             <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">🔌 3C 產品</h4>
             <label><input type="checkbox"><span>轉接插頭+行充</span></label>
@@ -342,19 +371,21 @@
             <label><input type="checkbox"><span>DJI Pocket 3+充電線</span></label>
         </div>
 
-        <!-- 群組 3：個人衣物 -->
+        <!-- 群組 3：👕個人衣物 -->
         <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
             <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">👕 個人衣物</h4>
             <label><input type="checkbox"><span>衣服</span></label>
             <label><input type="checkbox"><span>褲子</span></label>
-            <label><input type="checkbox"><span>防寒/厚外套+圍巾（非必需）</span></label>
+            <label><input type="checkbox"><span>防寒/厚外套</span></label>
+            <label><input type="checkbox"><span>圍巾（非必需）</span></label>
             <label><input type="checkbox"><span>內衣褲</span></label>
             <label><input type="checkbox"><span>襪子</span></label>
-            <label><input type="checkbox"><span>太陽眼鏡+折疊傘（非必需）</span></label>
-            <label><input type="checkbox"><span>必備常備藥(腸胃、感冒藥)</span></label>
+            <label><input type="checkbox"><span>太陽眼鏡</span></label>
+            <label><input type="checkbox"><span>折疊傘（非必需）</span></label>
+            <label><input type="checkbox"><span>常備藥(腸胃、感冒藥)</span></label>
         </div>
 
-        <!-- 群組 4：盥洗保養 -->
+        <!-- 群組 4：🧴盥洗保養 -->
         <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
             <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">🧴 盥洗、保養用品</h4>
             <label><input type="checkbox"><span>保養品</span></label>
