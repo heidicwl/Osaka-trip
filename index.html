@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> 大阪旅遊小本本</title>
+    <title>大阪旅遊小本本</title>
     <style>
         :root{--bg:#f6f8fb;--card:#fff;--ink:#1d2433;--muted:#637083;--brand:#ef4f5f;--brand2:#3267d6;--line:#dfe6f1}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}.hero{background:linear-gradient(135deg,#b91c1c,#1e3a8a);color:white;padding:42px 18px 30px}.hero-inner,main{max-width:980px;margin:auto}.pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:6px 12px;font-size:14px}h1{font-size:clamp(30px,6vw,56px);line-height:1.15;margin:18px 0 12px}h2{font-size:26px;margin:34px 0 14px}h3{margin:0 0 8px}.quick{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.quick a,.maplinks a{background:white;color:var(--brand2);text-decoration:none;padding:9px 13px;border-radius:999px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.cards article,.flight,.hotel,.day,section>ul,.checklist{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 8px 20px rgba(30,50,80,.06)}a{color:var(--brand2)}.flight-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}.tag{display:inline-block;color:white;background:var(--brand);padding:4px 10px;border-radius:99px;font-size:14px}.route{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;margin-top:14px}.route span{display:block;color:var(--muted)}.plane{text-align:center;font-size:26px;color:var(--brand2)}.plane small{display:block;font-size:12px;color:var(--muted)}.hotel-list{display:grid;gap:12px}.hotel{display:grid;grid-template-columns:90px 1fr;gap:4px 16px}.hotel .date{grid-row:1/5;font-weight:900;color:var(--brand);font-size:18px}.timeline{display:grid;gap:18px}.day{position:relative;overflow:hidden}.day:before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;background:linear-gradient(var(--brand),var(--brand2))}.day-head{display:flex;gap:10px;align-items:center;color:var(--muted)}.day-head span{background:#eef3ff;color:var(--brand2);padding:3px 9px;border-radius:99px;font-weight:800}.route-line{font-weight:700}.meals{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin:12px 0}.meals span{background:#f7f9fd;border-radius:14px;padding:10px}.meals b{display:block;color:var(--brand)}.maplinks{display:flex;gap:8px;flex-wrap:wrap}.maplinks a{background:#eef3ff;font-size:14px}.tips{padding-left:36px}.tips li{margin:10px 0} .checklist{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}.checklist label{background:#f7f9fd;border-radius:14px;padding:10px 12px;display:flex;align-items:center;gap:8px;cursor:pointer}#top{position:fixed;right:18px;bottom:18px;border:0;border-radius:50%;width:48px;height:48px;background:var(--ink);color:white;font-size:22px;box-shadow:0 8px 18px rgba(0,0,0,.2);display:none}.new-year-plan{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}.new-year-plan div{background:#fff5f5;border:1px solid #fed7d7;border-radius:14px;padding:10px}.new-year-plan b {display:block;color:var(--brand)}.new-year-plan span{display:block;color:var(--muted);font-size:14px}.mini-note{background:#eef8ff;border:1px solid #cfe9ff;border-radius:14px;padding:12px}.section-kicker{display:inline-block;color:var(--brand2);font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:13px}.section-desc{color:var(--muted);margin-top:-6px}.countdown-card{margin:18px 0;background:linear-gradient(135deg,#2d0c10,#1a2e5a);color:#fff;border-radius:24px;padding:20px;display:grid;grid-template-columns:1.2fr 1fr;gap:16px;align-items:center;box-shadow:0 12px 26px rgba(30,50,80,.16)}.countdown-card h2{margin:6px 0 4px;color:#fff}.countdown-card p{margin:0;color:rgba(255,255,255,.82)}.countdown-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px} .countdown-grid div{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:18px;padding:12px;text-align:center}.countdown-grid b{display:block;font-size:clamp(24px,5vw,42px);line-height:1}.countdown-grid span{font-size:14px;color:rgba(255,255,255,.82)}.weather-grid,.food-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.weather-card,.food-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 8px 20px rgba(30,50,80,.06)}.weather-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.weather-top h3{margin:0}.weather-top span,.food-card span{color:var(--brand2);font-size:13px;font-weight:900;background:#eef3ff;border-radius:999px;padding:4px 9px;white-space:nowrap}.weather-main{display:flex;align-items:flex-end;gap:12px;margin:14px 0 6px}.weather-temp{font-size:40px;line-height:1;color:var(--brand)}.weather-code{font-weight:800;color:var(--ink)}.weather-detail{color:var(--muted);margin:0}.food-card h3{margin:10px 0 6px}.food-card p{color:var(--muted);margin:0 0 12px}.food-card a{display:inline-block;background:#eef3ff;color:var(--brand2);text-decoration:none;padding:8px 12px;border-radius:999px;font-weight:800}@media(max-width:640px){.hero{padding-top:28px}.hotel{grid-template-columns:1fr}.hotel .date{grid-row:auto}.route{grid-template-columns:1fr}.plane{transform:rotate(90deg)}main{padding:0 12px 42px}.cards{margin-top:12px}.countdown-card{grid-template-columns:1fr}.countdown-grid{grid-template-columns:repeat(4,1fr);gap:6px}.countdown-grid div{padding:10px 6px}.weather-temp{font-size:34px}}
     </style>
@@ -19,7 +19,6 @@
                 <a href="#itinerary">📅 行程 Plan</a>
                 <a href="#weather">🌤️ 天氣 Weather</a>
                 <a href="#hotels">🏨 住宿 Hotel</a>
-                <a href="#Foodmap">🍜 美食 Food</a>
                 <a href="#checklist-sec">🧳 物品 checklist</a>
             </div>
         </div>
@@ -40,249 +39,245 @@
         </div>
 
         <section id="Transport" style="margin-bottom:42px;">
-    <span class="section-kicker">Transport & Flights</span>
-    <h2>航班與機場交通</h2>
-    
-    <div class="flight-wrap" style="margin-bottom: 24px;">
-        <div class="flight">
-            <span class="tag">去程 SL396</span>
-            <div class="route">
-                <div><b>桃園機場 T1</b><span>2026/12/26 (六) 08:55</span></div>
-                <div class="plane">✈️<small>02h 35m</small></div>
-                <div><b>關西機場 T1</b><span>2026/12/26 (六) 12:30</span></div>
+            <span class="section-kicker">Transport & Flights</span>
+            <h2>航班與機場交通</h2>
+            
+            <div class="flight-wrap" style="margin-bottom: 24px;">
+                <div class="flight">
+                    <span class="tag">去程 SL396</span>
+                    <div class="route">
+                        <div><b>桃園機場 T1</b><span>2026/12/26 (六) 08:55</span></div>
+                        <div class="plane">✈️<small>02h 35m</small></div>
+                        <div><b>關西機場 T1</b><span>2026/12/26 (六) 12:30</span></div>
+                    </div>
+                </div>
+                <div class="flight">
+                    <span class="tag" style="background:var(--brand2)">回程 SL397</span>
+                    <div class="route">
+                        <div><b>關西機場 T1</b><span>2027/01/03 (日) 13:30</span></div>
+                        <div class="plane" style="color:var(--brand)">✈️<small>02h 50m</small></div>
+                        <div><b>桃園機場 T1</b><span>2027/01/03 (日) 15:20</span></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="flight">
-            <span class="tag" style="background:var(--brand2)">回程 SL397</span>
-            <div class="route">
-                <div><b>關西機場 T1</b><span>2027/01/03 (日) 13:30</span></div>
-                <div class="plane" style="color:var(--brand)">✈️<small>02h 50m</small></div>
-                <div><b>桃園機場 T1</b><span>2027/01/03 (日) 15:20</span></div>
-            </div>
-        </div>
-    </div>
 
-    <div class="food-grid">
-        
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span style="background: var(--brand); color: white;">機場交通</span>
-                <small style="color: var(--brand2); font-weight: bold;">KIX ➡️ 市區</small>
+            <div class="food-grid">
+                <article class="food-card">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span style="background: var(--brand); color: white;">機場交通</span>
+                        <small style="color: var(--brand2); font-weight: bold;">KIX ➡️ 市區</small>
+                    </div>
+                    <h3>關西機場往返市區</h3>
+                    <p style="font-size: 14px; color: var(--muted); margin: 0 0 8px 0;">
+                        • <b>南海電鐵 Rapi:t / 特急</b>：去難波、心齋橋、難波南住宿最快最方便（約38分鐘）。<br>
+                        • <b>JR 關空快速 / Haruka</b>：若直奔天王寺、梅田或京都可搭乘。
+                    </p>
+                </article>
             </div>
-            <h3>關西機場往返市區</h3>
-            <p style="font-size: 14px; color: var(--muted); margin: 0 0 8px 0;">
-                • <b>南海電鐵 Rapi:t / 特急</b>：去難波、心齋橋、難波南住宿最快最方便（約38分鐘）。<br>
-                • <b>JR 關空快速 / Haruka</b>：若直奔天王寺、梅田或京都可搭乘。
-            </p>
-        </article>
-
-    </div>
-</section>
+        </section>
 
         <section id="itinerary" style="margin-bottom:34px;">
             <span class="section-kicker">Itinerary</span>
-<h2>每日詳細行程</h2>
-<div class="timeline">
+            <h2>每日詳細行程</h2>
+            <div class="timeline">
 
-<article class="day">
-    <div class="day-head"><span>Day 01</span> 12/26 (Sat)</div>
-    <h3 class="route-line">行程：桃園機場 ✈ 關西機場 → 大阪勝尾寺初探</h3>
-    <p>詳細內容：下午抵達關西機場後辦理入境[cite: 2]，直奔大阪北部著名的<b>勝尾寺</b>，去祈求新年大吉大利、求一尊不倒翁達摩[cite: 2]。晚上回市區吃熱騰騰的晚餐。</p>
-    
-    <div style="background: #f1f5f9; border-left: 4px solid var(--brand2); padding: 10px 14px; border-radius: 4px 12px 12px 4px; font-size: 14px; margin: 12px 0;">
-        🚄 <b>交通路線：</b>
-        關西機場站 ➡️ <span style="color:var(--brand2); font-weight:bold;">千里中央站</span>（搭乘 JR 或地鐵御堂筋線/北大阪急行電鐵）
-        <br>
-        🚌 <b>轉乘工具：</b>
-        從 <span style="color:var(--brand2); font-weight:bold;">千里中央站</span> ➡️ <span style="color:var(--brand); font-weight:bold;">勝尾寺</span>（轉乘 29 號公車或計程車直達山上）
-    </div>
-    <div class="mini-note">
-        <b>注意事項💡 1：</b>前一天晚上先買早餐（三文治/飯團）
-        <br>
-        <b>注意事項💡 2：</b>飛機不提供免費餐食！
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>超商</span>
-        <span><b>午餐</b>關西機場[cite: 2]</span>
-        <span><b>晚餐</b>市區居酒屋</span>
-    </div>
-    <p><b>住宿：</b>Fuji Hotel Kyoto Gojo[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Kansai+International+Airport" target="_blank">📍 關西機場</a>
-        <a href="https://maps.google.com/?q=Katsuo-ji+Temple" target="_blank">📍 勝尾寺</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 01</span> 12/26 (Sat)</div>
+                    <h3 class="route-line">行程：桃園機場 ✈ 關西機場 → 大阪勝尾寺初探</h3>
+                    <p>詳細內容：下午抵達關西機場後辦理入境，直奔大阪北部著名的<b>勝尾寺</b>，去祈求新年大吉大利、求一尊不倒翁達摩。晚上回市區吃熱騰騰的晚餐。</p>
+                    
+                    <div style="background: #f1f5f9; border-left: 4px solid var(--brand2); padding: 10px 14px; border-radius: 4px 12px 12px 4px; font-size: 14px; margin: 12px 0;">
+                        🚄 <b>交通路線：</b>
+                        關西機場站 ➡️ <span style="color:var(--brand2); font-weight:bold;">千里中央站</span>（搭乘 JR 或地鐵御堂筋線/北大阪急行電鐵）
+                        <br>
+                        🚌 <b>轉乘工具：</b>
+                        從 <span style="color:var(--brand2); font-weight:bold;">千里中央站</span> ➡️ <span style="color:var(--brand); font-weight:bold;">勝尾寺</span>（轉乘 29 號公車或計程車直達山上）
+                    </div>
+                    <div class="mini-note">
+                        <b>注意事項💡 1：</b>前一天晚上先買早餐（三文治/飯團）
+                        <br>
+                        <b>注意事項💡 2：</b>飛機不提供免費餐食！
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>超商</span>
+                        <span><b>午餐</b>關西機場</span>
+                        <span><b>晚餐</b>市區居酒屋</span>
+                    </div>
+                    <p><b>住宿：</b>Fuji Hotel Kyoto Gojo</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Kansai+International+Airport" target="_blank">📍 關西機場</a>
+                        <a href="https://maps.google.com/?q=Katsuo-ji+Temple" target="_blank">📍 勝尾寺</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 02</span> 12/27 (Sun)</div>
-    <h3 class="route-line">行程：嵐山深度遊與保津川遊船 ➡️ 二條城 ➡️ 八坂神社夜巡</h3>
-    <p>詳細內容：早上從京都出發前往<b>嵐山</b>[cite: 2]，搭乘浪漫的<b>嵯峨野小火車</b>[cite: 2]，隨後前往體驗刺激優美的<b>保津川漂流遊船</b>[cite: 2]。下午享用精緻的豆腐料理松枝[cite: 2]，漫步<b>嵐山竹林小徑</b>並品嚐中村屋可樂餅[cite: 2]。傍晚與進夜後，依序參訪歷史悠久的<b>二條城</b>[cite: 2]、享用 Hiroju Takatsuji 的美味壽喜燒[cite: 2]，最後漫步在夜間別具風味的<b>京都八坂神社</b>[cite: 2]。</p>
-    <div class="mini-note">
-        <b>注意事項💡 1：</b>嵯峨野嵐山小火車記得「坐雙號」，風景比較好看[cite: 2]！
-        <br>
-        <b>注意事項💡 2：</b>保津川遊船可欣賞峽谷秀麗景緻，航程時間需預留約 2 小時[cite: 2]。
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>未定</span>
-        <span><b>午餐</b>豆腐料理 松枝[cite: 2]</span>
-        <span><b>晚餐</b>Sukiyaki Meat Hiroju Takatsuji[cite: 2]</span>
-    </div>
-    <p><b>住宿：</b>1-chōme-9-4 Nishikujō (大阪西九條)[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Arashiyama" target="_blank">📍 嵐山</a>
-        <a href="https://maps.google.com/?q=Hozugawa+River+Cruise" target="_blank">📍 保津川遊船</a>
-        <a href="https://maps.google.com/?q=Nijo+Castle" target="_blank">📍 二條城</a>
-        <a href="https://maps.google.com/?q=Yasaka+Shrine" target="_blank">📍 八坂神社</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 02</span> 12/27 (Sun)</div>
+                    <h3 class="route-line">行程：嵐山深度遊與保津川遊船 ➡️ 二條城 ➡️ 八坂神社夜巡</h3>
+                    <p>詳細內容：早上從京都出發前往<b>嵐山</b>，搭乘浪漫的<b>嵯峨野小火車</b>，隨後前往體驗刺激優美的<b>保津川漂流遊船</b>。下午享用精緻的豆腐料理松枝，漫步<b>嵐山竹林小徑</b>並品嚐中村屋可樂餅。傍晚與進夜後，依序參訪歷史悠久的<b>二條城</b>、享用 Hiroju Takatsuji 的美味壽喜燒，最後漫步在夜間別具風味的<b>京都八坂神社</b>。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡 1：</b>嵯峨野嵐山小火車記得「坐雙號」，風景比較好看！
+                        <br>
+                        <b>注意事項💡 2：</b>保津川遊船可欣賞峽谷秀麗景緻，航程時間需預留約 2 小時。
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>未定</span>
+                        <span><b>午餐</b>豆腐料理 松枝</span>
+                        <span><b>晚餐</b>Sukiyaki Meat Hiroju Takatsuji</span>
+                    </div>
+                    <p><b>住宿：</b>1-chōme-9-4 Nishikujō (大阪西九條)</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Arashiyama" target="_blank">📍 嵐山</a>
+                        <a href="https://maps.google.com/?q=Hozugawa+River+Cruise" target="_blank">📍 保津川遊船</a>
+                        <a href="https://maps.google.com/?q=Nijo+Castle" target="_blank">📍 二條城</a>
+                        <a href="https://maps.google.com/?q=Yasaka+Shrine" target="_blank">📍 八坂神社</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 03</span> 12/28 (Mon)</div>
-    <h3 class="route-line">行程：全日暢玩日本環球影城 (USJ)</h3>
-    <p>詳細內容：今天開啟一整天瘋狂又夢幻的<b>日本環球影城</b>之旅[cite: 2]！清晨天未亮即出發前往園區排隊等待入園[cite: 2]。園區內擁有滿滿的流行美國電影主題設施、精彩的現場娛樂表演、哈利波特魔法世界以及超級任天堂世界等[cite: 2]，讓您從早到晚尖叫不斷、回味無窮。</p>
-    <div class="mini-note">
-        <b>注意事項💡：</b>環球影城建議提早前往卡位，預計在園區暢玩整整 12 個小時（07:10 - 19:30）[cite: 2]，體力要充飽！
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>未定</span>
-        <span><b>午餐</b>環球影城園區內</span>
-        <span><b>晚餐</b>環球影城 / 大阪市區</span>
-    </div>
-    <p><b>住宿：</b>1-chōme-9-4 Nishikujō (大阪西九條)[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Universal+Studios+Japan" target="_blank">📍 日本環球影城</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 03</span> 12/28 (Mon)</div>
+                    <h3 class="route-line">行程：全日暢玩日本環球影城 (USJ)</h3>
+                    <p>詳細內容：今天開啟一整天瘋狂又夢幻的<b>日本環球影城</b>之旅！清晨天未亮即出發前往園區排隊等待入園。園區內擁有滿滿的流行美國電影主題設施、精彩的現場娛樂表演、哈利波特魔法世界以及超級任天堂世界等，讓您從早到晚尖叫不斷、回味無窮。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡：</b>環球影城建議提早前往卡位，預計在園區暢玩整整 12 個小時（07:10 - 19:30），體力要充飽！
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>未定</span>
+                        <span><b>午餐</b>環球影城園區內</span>
+                        <span><b>晚餐</b>環球影城 / 大阪市區</span>
+                    </div>
+                    <p><b>住宿：</b>1-chōme-9-4 Nishikujō (大阪西九條)</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Universal+Studios+Japan" target="_blank">📍 日本環球影城</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 04</span> 12/29 (Tue)</div>
-    <h3 class="route-line">行程：通天閣地標 ➡️ 梅田茶屋町逛街購物 ➡️ 梅田浪漫夜景</h3>
-    <p>詳細內容：上午首先造訪極具浪速風情的地標<b>通天閣</b>[cite: 2]。中午轉戰梅田地區，在知名鬆餅店 bills 享用午餐[cite: 2]，接著前往<b>扭蛋之森</b>與 <b>#C-pla</b> 瘋狂扭蛋[cite: 2]。下午朝聖 grenier 品嚐網美甜點[cite: 2]，傍晚外帶 Dekasan 三明治[cite: 2]，並參拜隱密浪漫的<b>露天神社</b>[cite: 2]。深夜登上<b>梅田藍天大廈空中庭園</b>，俯瞰璀璨的大阪百萬夜景[cite: 2]，最後以美味的心齋橋宮田麵兒沾麵作結[cite: 2]。</p>
-    <div class="mini-note">
-        <b>注意事項💡：</b>露天神社是流傳著悲傷浪漫傳說的小巧神社，情侶一同前來可在此祈求愛情長久[cite: 2]。
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>未定</span>
-        <span><b>午餐</b>bills Osaka[cite: 2]</span>
-        <span><b>晚餐</b>心齋橋宮田麵兒-大阪沾麵[cite: 2]</span>
-    </div>
-    <p><b>住宿：</b>Junction Namba South Hotel Apartment[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Tsutenkaku" target="_blank">📍 通天閣</a>
-        <a href="https://maps.google.com/?q=Tsuyu+no+Tenjinja+Shrine" target="_blank">📍 露天神社</a>
-        <a href="https://maps.google.com/?q=Umeda+Sky+Building" target="_blank">📍 梅田藍天大廈</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 04</span> 12/29 (Tue)</div>
+                    <h3 class="route-line">行程：通天閣地標 ➡️ 梅田茶屋町逛街購物 ➡️ 梅田浪漫夜景</h3>
+                    <p>詳細內容：上午首先造訪極具浪速風情的地標<b>通天閣</b>。中午轉戰梅田地區，在知名鬆餅店 bills 享用午餐，接著前往<b>扭蛋之森</b>與 <b>#C-pla</b> 瘋狂扭蛋。下午朝聖 grenier 品嚐網美甜點，傍晚外帶 Dekasan 三明治，並參拜隱密浪漫的<b>露天神社</b>。深夜登上<b>梅田藍天大廈空中庭園</b>，俯瞰璀璨的大阪百萬夜景，最後以美味的心齋橋宮田麵兒沾麵作結。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡：</b>露天神社是流傳著悲傷浪漫傳說的小巧神社，情侶一同前來可在此祈求愛情長久。
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>未定</span>
+                        <span><b>午餐</b>bills Osaka</span>
+                        <span><b>晚餐</b>心齋橋宮田麵兒-大阪沾麵</span>
+                    </div>
+                    <p><b>住宿：</b>Junction Namba South Hotel Apartment</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Tsutenkaku" target="_blank">📍 通天閣</a>
+                        <a href="https://maps.google.com/?q=Tsuyu+no+Tenjinja+Shrine" target="_blank">📍 露天神社</a>
+                        <a href="https://maps.google.com/?q=Umeda+Sky+Building" target="_blank">📍 梅田藍天大廈</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 05</span> 12/30 (Wed)</div>
-    <h3 class="route-line">行程：奈良古都小鹿與世界遺產巡禮 ➡️ 東向商店街散策</h3>
-    <p>詳細內容：今天出發前往奈良[cite: 2]！上午先到<b>中谷堂</b>觀看震撼的搗麻糬示範並品嚐傳統麻糬[cite: 2]，接著參訪古老宏偉的<b>興福寺</b>[cite: 2]與<b>冰室神社</b>[cite: 2]。下午在滿是溫馴小鹿的<b>奈良公園</b>漫步[cite: 2]，朝聖擁有日本最大青銅佛像的<b>東大寺</b>[cite: 2]。黃昏時分造訪童話般的水谷茶屋[cite: 2]、朱紅斑斕的<b>春日大社</b>[cite: 2]，並登上<b>若草山</b>俯瞰夕陽[cite: 2]。晚上回市區逛逛有頂棚的<b>東向商店街</b>[cite: 2]，並到觀光旅遊中心休息[cite: 2]。</p>
-    <div class="mini-note">
-        <b>注意事項💡 1：</b>中谷堂以傳統日式麻糬與現場搗麻糬秀聞名，千萬別錯過[cite: 2]！
-        <br>
-        <b>注意事項💡 2：</b>若草山海拔約 1,122 英尺，這裡也是年度著名的「燒山祭」舉辦地點[cite: 2]。
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>未定</span>
-        <span><b>午餐</b>奈良市區 / 東向商店街[cite: 2]</span>
-        <span><b>晚餐</b>大阪市區 / 難波</span>
-    </div>
-    <p><b>住宿：</b>Junction Namba South Hotel Apartment[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Kofuku-ji" target="_blank">📍 興福寺</a>
-        <a href="https://maps.google.com/?q=Nara+Park" target="_blank">📍 奈良公園</a>
-        <a href="https://maps.google.com/?q=Todai-ji" target="_blank">📍 東大寺</a>
-        <a href="https://maps.google.com/?q=Kasuga+Taisha" target="_blank">📍 春日大社</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 05</span> 12/30 (Wed)</div>
+                    <h3 class="route-line">行程：奈良古都小鹿與世界遺產巡禮 ➡️ 東向商店街散策</h3>
+                    <p>詳細內容：今天出發前往奈良！上午先到<b>中谷堂</b>觀看震撼的搗麻糬示範並品嚐傳統麻糬，接著參訪古老宏偉的<b>興福寺</b>與<b>冰室神社</b>。下午在滿是溫馴小鹿的<b>奈良公園</b>漫步，朝聖擁有日本最大青銅佛像的<b>東大寺</b>。黃昏時分造訪童話般的水谷茶屋、朱紅斑斕的<b>春日大社</b>，並登上<b>若草山</b>俯瞰夕陽。晚上回市區逛逛有頂棚的<b>東向商店街</b>，並到觀光旅遊中心休息。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡 1：</b>中谷堂以傳統日式麻糬與現場搗麻糬秀聞名，千萬別錯過！
+                        <br>
+                        <b>注意事項💡 2：</b>若草山海拔約 1,122 英尺，這裡也是年度著名的「燒山祭」舉辦地點。
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>未定</span>
+                        <span><b>午餐</b>奈良市區 / 東向商店街</span>
+                        <span><b>晚餐</b>大阪市區 / 難波</span>
+                    </div>
+                    <p><b>住宿：</b>Junction Namba South Hotel Apartment</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Kofuku-ji" target="_blank">📍 興福寺</a>
+                        <a href="https://maps.google.com/?q=Nara+Park" target="_blank">📍 奈良公園</a>
+                        <a href="https://maps.google.com/?q=Todai-ji" target="_blank">📍 東大寺</a>
+                        <a href="https://maps.google.com/?q=Kasuga+Taisha" target="_blank">📍 春日大社</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 06</span> 12/31 (Thu)</div>
-    <h3 class="route-line">行程：大阪城跨年巡禮 ➡️ 獅子頭神社 ➡️ 道頓堀熱鬧跨年夜</h3>
-    <p>詳細內容：上午造訪雄偉的<b>大阪城</b>與<b>天守閣</b>[cite: 2]，欣賞精美金箔裝飾並逛逛展品豐富的博物館[cite: 2]。中午在 SANA 推薦的 Nishiya 享用美味烏龍麵[cite: 2]，隨後去 Melt Chocolate 與 MooKEN 品嚐小泡芙甜點[cite: 2]。下午朝聖擁有超震撼大獅子頭造型舞台的<b>難波八阪神社</b>[cite: 2]，接著漫步<b>心齋橋筋商店街</b>與 <b>#C-pla</b> 瘋狂購物[cite: 2]。傍晚大啖章魚家道頓堀 KUKURU 的章魚燒[cite: 2]，搭乘<b>道頓堀水上觀光船</b>欣賞霓虹夜景[cite: 2]。跨年夜在熱鬧的<b>道頓堀</b>狂歡[cite: 2]，吃千房大阪燒[cite: 2]，最後進夜參拜歷史悠久的<b>四天王寺</b>迎接新年[cite: 2]。</p>
-    <div class="mini-note">
-        <b>注意事項💡 1：</b>心齋橋筋商店街林立各式高檔免稅店，部分店家還貼心提供機場寄送服務[cite: 2]。
-        <br>
-        <b>注意事項💡 2：</b>夜間前往四天王寺參拜時，請務必遵守日本傳統參拜步驟：投錢 ➡️ 拍兩下手 ➡️ 合掌祈求 ➡️ 鞠躬[cite: 2]。
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>未定</span>
-        <span><b>午餐</b>Nishiya 烏龍麵[cite: 2]</span>
-        <span><b>晚餐</b>千房 千日前本店[cite: 2]</span>
-    </div>
-    <p><b>住宿：</b>Junction Namba South Hotel Apartment[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Osaka+Castle" target="_blank">📍 大阪城</a>
-        <a href="https://maps.google.com/?q=Namba+Yasaka+Shrine" target="_blank">📍 難波八阪神社</a>
-        <a href="https://maps.google.com/?q=Dotonbori" target="_blank">📍 道頓堀</a>
-        <a href="https://maps.google.com/?q=Shitennoji" target="_blank">📍 四天王寺</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 06</span> 12/31 (Thu)</div>
+                    <h3 class="route-line">行程：大阪城跨年巡禮 ➡️ 獅子頭神社 ➡️ 道頓堀熱鬧跨年夜</h3>
+                    <p>詳細內容：上午造訪雄偉的<b>大阪城</b>與<b>天守閣</b>，欣賞精美金箔裝飾並逛逛展品豐富的博物館。中午在 SANA 推薦的 Nishiya 享用美味烏龍麵，隨後去 Melt Chocolate 與 MooKEN 品嚐小泡芙甜點。下午朝聖擁有超震撼大獅子頭造型舞台的<b>難波八阪神社</b>，接著漫步<b>心齋橋筋商店街</b>與 <b>#C-pla</b> 瘋狂購物。傍晚大啖章魚家道頓堀 KUKURU 的章魚燒，搭乘<b>道頓堀水上觀光船</b>欣賞霓虹夜景。跨年夜在熱鬧的<b>道頓堀</b>狂歡，吃千房大阪燒，最後進夜參拜歷史悠久的<b>四天王寺</b>迎接新年。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡 1：</b>心齋橋筋商店街林立各式高檔免稅店，部分店家還貼心提供機場寄送服務。
+                        <br>
+                        <b>注意事項💡 2：</b>夜間前往四天王寺參拜時，請務必遵守日本傳統參拜步驟：投錢 ➡️ 拍兩下手 ➡️ 合掌祈求 ➡️ 鞠躬。
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>未定</span>
+                        <span><b>午餐</b>Nishiya 烏龍麵</span>
+                        <span><b>晚餐</b>千房 千日前本店</span>
+                    </div>
+                    <p><b>住宿：</b>Junction Namba South Hotel Apartment</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Osaka+Castle" target="_blank">📍 大阪城</a>
+                        <a href="https://maps.google.com/?q=Namba+Yasaka+Shrine" target="_blank">📍 難波八阪神社</a>
+                        <a href="https://maps.google.com/?q=Dotonbori" target="_blank">📍 道頓堀</a>
+                        <a href="https://maps.google.com/?q=Shitennoji" target="_blank">📍 四天王寺</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 07</span> 01/01 (Fri)</div>
-    <h3 class="route-line">行程：新年京都初詣：伏見稻荷千本鳥居 ➡️ 金閣寺 ➡️ 清水寺夜巡</h3>
-    <p>詳細內容：元旦新年快樂！今天再次奔向京都進行新年「初詣」[cite: 2]。上午先到<b>伏見稻荷大社</b>，穿過壯觀無比的<b>千本鳥居</b>[cite: 2]，中午在 Niku No Odakichi 享用美食[cite: 2]，並逛逛 Inariya[cite: 2]。下午趕往欣賞在冬日陽光下閃閃發光的金色<b>金閣寺</b>鏡湖池絕景[cite: 2]。傍晚前往品嚐 Marumochiya 點心[cite: 2]，隨後登上<b>清水寺</b>，站在著名的寬廣木造清水舞台上，遠眺美麗的京都夜景[cite: 2]。晚餐安排在 Sh食堂 Days / 一寸法師享用[cite: 2]。</p>
-    <div class="mini-note">
-        <b>注意事項💡：</b>新年元旦是日本的傳統大節日，各大寺廟（尤其是伏見稻荷與清水寺）初詣人潮會非常擁擠[cite: 2]，請務必注意隨身物品安全並預留充裕的交通轉乘時間。
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>未定</span>
-        <span><b>午餐</b>Niku No Odakichi Fushimiinari[cite: 2]</span>
-        <span><b>晚餐</b>一寸法師 / Shokudo Days[cite: 2]</span>
-    </div>
-    <p><b>住宿：</b>Junction Namba South Hotel Apartment[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Fushimi+Inari+Taisha" target="_blank">📍 伏見稻荷大社</a>
-        <a href="https://maps.google.com/?q=Kinkaku-ji" target="_blank">📍 金閣寺</a>
-        <a href="https://maps.google.com/?q=Kiyomizu-dera" target="_blank">📍 清水寺</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 07</span> 01/01 (Fri)</div>
+                    <h3 class="route-line">行程：新年京都初詣：伏見稻荷千本鳥居 ➡️ 金閣寺 ➡️ 清水寺夜巡</h3>
+                    <p>詳細內容：元旦新年快樂！今天再次奔向京都進行新年「初詣」。上午先到<b>伏見稻荷大社</b>，穿過壯觀無比的<b>千本鳥居</b>，中午在 Niku No Odakichi 享用美食，並逛逛 Inariya。下午趕往欣賞在冬日陽光下閃閃發光的金色<b>金閣寺</b>鏡湖池絕景。傍晚前往品嚐 Marumochiya 點心，隨後登上<b>清水寺</b>，站在著名的寬廣木造清水舞台上，遠眺美麗的京都夜景。晚餐安排在 Sh食堂 Days / 一寸法師享用。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡：</b>新年元旦是日本的傳統大節日，各大寺廟（尤其是伏見稻荷與清水寺）初詣人潮會非常擁擠，請務必注意隨身物品安全並預留充裕的交通轉乘時間。
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>未定</span>
+                        <span><b>午餐</b>Niku No Odakichi Fushimiinari</span>
+                        <span><b>晚餐</b>一寸法師 / Shokudo Days</span>
+                    </div>
+                    <p><b>住宿：</b>Junction Namba South Hotel Apartment</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Fushimi+Inari+Taisha" target="_blank">📍 伏見稻荷大社</a>
+                        <a href="https://maps.google.com/?q=Kinkaku-ji" target="_blank">📍 金閣寺</a>
+                        <a href="https://maps.google.com/?q=Kiyomizu-dera" target="_blank">📍 清水寺</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 08</span> 01/02 (Sat)</div>
-    <h3 class="route-line">行程：黑門市場美食大飽足 ➡️ 味乃家御好燒 ➡️ 阿倍野 Harukas 300 絕美高空全景</h3>
-    <p>詳細內容：今天上午主打美食饕客之旅！一早前往擁有「大阪廚房」美譽的<b>黑門市場</b>[cite: 2]，大啖海鮮與街頭小吃，特別朝聖黑門三平品嚐新鮮農產品與貝類[cite: 2]，隨後再來一份超吸睛的哈密瓜雪糕甜點[cite: 2]。中午前往品嚐全日本知名、必須提前預約的味乃家御好燒[cite: 2]。下午登上全日本前幾高樓的 <b>Harukas 300 展望台</b>，在 58 至 60 樓的 3 層玻璃觀景區俯瞰超震撼全景[cite: 2]。傍晚回難波公寓收拾行李[cite: 2]。</p>
-    <div class="mini-note">
-        <b>注意事項💡 1：</b>中午的「味乃家御好燒」人氣極高，記得務必「提前 1 個月」透過官網系統預約[cite: 2]！
-        <br>
-        <b>注意事項💡 2：</b>Harukas 300 展望台有一個隱藏拍照點——位於「59樓的廁所」，擁有超壯觀的全景落地玻璃，非常好看看[cite: 2]！
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>黑門市場小吃[cite: 2]</span>
-        <span><b>午餐</b>味乃家御好燒 (要預約)[cite: 2]</span>
-        <span><b>晚餐</b>大阪市區自選</span>
-    </div>
-    <p><b>住宿：</b>Junction Namba South Hotel Apartment[cite: 2]</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Kuromon+Ichiba+Market" target="_blank">📍 黑門市場</a>
-        <a href="https://maps.google.com/?q=Ajinoya+Okonomiyaki" target="_blank">📍 味乃家御好燒</a>
-        <a href="https://maps.google.com/?q=Abeno+Harukas+300" target="_blank">📍 Abeno Harukas 300</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 08</span> 01/02 (Sat)</div>
+                    <h3 class="route-line">行程：黑門市場美食大飽足 ➡️ 味乃家御好燒 ➡️ 阿倍野 Harukas 300 絕美高空全景</h3>
+                    <p>詳細內容：今天上午主打美食饕客之旅！一早前往擁有「大阪廚房」美譽的<b>黑門市場</b>，大啖海鮮與街頭小吃，特別朝聖黑門三平品嚐新鮮農產品與貝類，隨後再來一份超吸睛的哈密瓜雪糕甜點。中午前往品嚐全日本知名、必須提前預約的味乃家御好燒。下午登上全日本前幾高樓的 <b>Harukas 300 展望台</b>，在 58 至 60 樓的 3 層玻璃觀景區俯瞰超震撼全景。傍晚回難波公寓收拾行李。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡 1：</b>中午的「味乃家御好燒」人氣極高，記得務必「提前 1 個月」透過官網系統預約！
+                        <br>
+                        <b>注意事項💡 2：</b>Harukas 300 展望台有一個隱藏拍照點——位於「59樓的廁所」，擁有超壯觀的全景落地玻璃，非常好看看！
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>黑門市場小吃</span>
+                        <span><b>午餐</b>味乃家御好燒 (要預約)</span>
+                        <span><b>晚餐</b>大阪市區自選</span>
+                    </div>
+                    <p><b>住宿：</b>Junction Namba South Hotel Apartment</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Kuromon+Ichiba+Market" target="_blank">📍 黑門市場</a>
+                        <a href="https://maps.google.com/?q=Ajinoya+Okonomiyaki" target="_blank">📍 味乃家御好燒</a>
+                        <a href="https://maps.google.com/?q=Abeno+Harukas+300" target="_blank">📍 Abeno Harukas 300</a>
+                    </div>
+                </article>
 
-<article class="day">
-    <div class="day-head"><span>Day 09</span> 01/03 (Sun)</div>
-    <h3 class="route-line">行程：難波市區 ➡️ 關西國際機場 ✈ 桃園機場</h3>
-    <p>詳細內容：歡樂的關西年末跨年九日之旅來到尾聲。早上在 Junction Namba 公寓辦理退房並享用早餐[cite: 2]，最後檢查是否有漏掉的戰利品。隨後搭乘專車或南海電鐵急行直奔<b>關西國際機場</b>[cite: 2]。預計於 13:30 前抵達機場[cite: 2]，在機場免稅店進行最後一輪伴手禮大採購後辦理登機，帶著滿滿的不倒翁祝福與美好回憶返回桃園機場。</p>
-    <div class="mini-note">
-        <b>注意事項💡：</b>國際航班建議至少提前 2.5 至 3 小時抵達機場辦理報到手續與託運[cite: 2]，新年收假期間機場人潮較多，請提早出發以免匆忙。
-    </div>
-    <div class="meals">
-        <span><b>早餐</b>市區超商 / 餐廳[cite: 2]</span>
-        <span><b>午餐</b>關西機場免稅店 / 機上簡餐[cite: 2]</span>
-        <span><b>晚餐</b>溫暖的家</span>
-    </div>
-    <p><b>住宿：</b>溫暖的家</p>
-    <div class="maplinks">
-        <a href="https://maps.google.com/?q=Kansai+International+Airport" target="_blank">📍 關西國際機場</a>
-    </div>
-</article>
+                <article class="day">
+                    <div class="day-head"><span>Day 09</span> 01/03 (Sun)</div>
+                    <h3 class="route-line">行程：難波市區 ➡️ 關西國際機場 ✈ 桃園機場</h3>
+                    <p>詳細內容：歡樂的關西年末跨年九日之旅來到尾聲。早上在 Junction Namba 公寓辦理退房並享用早餐，最後檢查是否有漏掉的戰利品。隨後搭乘專車或南海電鐵急行直奔<b>關西國際機場</b>。預計於 13:30 前抵達機場，在機場免稅店進行最後一輪伴手禮大採購後辦理登機，帶著滿滿的不倒翁祝福與美好回憶返回桃園機場。</p>
+                    <div class="mini-note">
+                        <b>注意事項💡：</b>國際航班建議至少提前 2.5 至 3 小時抵達機場辦理報到手續與託運，新年收假期間機場人潮較多，請提早出發以免匆忙。
+                    </div>
+                    <div class="meals">
+                        <span><b>早餐</b>市區超商 / 餐廳</span>
+                        <span><b>午餐</b>關西機場免稅店 / 機上簡餐</span>
+                        <span><b>晚餐</b>溫暖的家</span>
+                    </div>
+                    <p><b>住宿：</b>溫暖的家</p>
+                    <div class="maplinks">
+                        <a href="https://maps.google.com/?q=Kansai+International+Airport" target="_blank">📍 關西國際機場</a>
+                    </div>
+                </article>
 
-</div>
-
-</div>
+            </div>
         </section>
 
         <section id="weather" style="margin-bottom:34px;">
@@ -313,17 +308,17 @@
                     </div>
                     <p class="weather-detail">降雨機率：<b class="weather-rain">--%</b> ｜ 風速：<b class="weather-wind">-- km/h</b></p>
                 </div>
-                  <div class="weather-card" data-weather-lat="34.665" data-weather-lon="135.432">
-               <div class="weather-top">
-              <h3>日本環球影城 (USJ)</h3>
-               <span>Day 3</span>
+                <div class="weather-card" data-weather-lat="34.665" data-weather-lon="135.432">
+                    <div class="weather-top">
+                        <h3>日本環球影城 (USJ)</h3>
+                        <span>Day 3</span>
+                    </div>
+                    <div class="weather-main">
+                        <div class="weather-temp">--°C</div>
+                        <div class="weather-code">載入中</div>
+                    </div>
+                    <p class="weather-detail">降雨機率：<b class="weather-rain">--%</b> ｜ 風速：<b class="weather-wind">-- km/h</b></p>
                 </div>
-                <div class="weather-main">
-                <div class="weather-temp">--°C</div>
-                 <div class="weather-code">載入中</div>
-                 </div>
-               <p class="weather-detail">降雨機率：<b class="weather-rain">--%</b> ｜ 風速：<b class="weather-wind">-- km/h</b></p>
-             </div>
                 <div class="weather-card" data-weather-lat="34.685" data-weather-lon="135.832">
                     <div class="weather-top">
                         <h3>奈良公園 / 東大寺</h3>
@@ -334,358 +329,118 @@
                         <div class="weather-code">載入中</div>
                     </div>
                     <p class="weather-detail">降雨機率：<b class="weather-rain">--%</b> ｜ 風速：<b class="weather-wind">-- km/h</b></p>
+                </div> <!-- 👈 修正：補上原本漏掉的閉合標籤 -->
+            </div>
+        </section>  
 
-</div>
-</section>  
+
+        <section id="hotels" style="margin-bottom:34px;">
+            <span class="section-kicker">Accommodation</span>
+            <h2>已訂住宿明細</h2>
+            <div class="hotel-list">
                 
-<section id="foodmap">
-    <span class="section-kicker">Food Map</span>
-    <h2>每日美食行程地圖</h2>
-    <p class="section-desc">點「開地圖」即可用 Google Maps 搜尋。店家營業時間會變，出發前再確認一次，才不會撲空到懷疑人生。</p>
-    
-    <!-- Day 01 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 01 — 12/26 (Sat)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>關西機場 / 市區</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">✈ 抵達日</small>
-            </div>
-            <h3>午餐：關西機場內餐廳 ＆ 晚餐：市區居酒屋</h3>
-            <p>下飛機後先在機場簡單覓食填飽肚子[cite: 2]。晚上拜完勝尾寺回到市區後，再找間熱騰騰的在地居酒屋慶祝旅程開始！</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=關西國際機場">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 02 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 02 — 12/27 (Sun)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>嵐山</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 中午時段</small>
-            </div>
-            <h3>午餐：豆腐料理 松枝</h3>
-            <p>漫步嵐山竹林小徑，品嚐京都最道地、精緻清爽的傳統豆腐料理[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=嵐山+豆腐料理+松枝">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>嵐山</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 下午點心</small>
-            </div>
-            <h3>點心：中村屋可樂餅</h3>
-            <p>嵐山超人氣的散步美食，外皮酥脆、內餡熱呼呼又充滿肉香[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=嵐山+中村屋總本店+可樂餅">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>京都</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 晚餐時段</small>
-            </div>
-            <h3>晚餐：Sukiyaki Meat Hiroju Takatsuji</h3>
-            <p>造訪二條城與八坂神社之間安排的美味壽喜燒，大口滿足對日本頂級高檔肉品的期待[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Sukiyaki+Meat+Hiroju+Takatsuji">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 03 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 03 — 12/28 (Mon)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>日本環球影城</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 全天狂歡</small>
-            </div>
-            <h3>午晚餐：USJ 園區主題餐廳 / 市區自選</h3>
-            <p>整天在環球影城衝鋒陷陣[cite: 2]，午餐在園區內享用充滿電影主題特色的餐點，晚餐回市區後看體力覓食！</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Universal+Studios+Japan">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 04 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 04 — 12/29 (Tue)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>梅田</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 中午時段</small>
-            </div>
-            <h3>午餐：bills Osaka</h3>
-            <p>號稱「世界第一早餐」的鬆餅名店！招牌經典蜂蜜奶油香蕉鬆餅絕對不容錯過[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=bills+Osaka+梅田">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>梅田</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 下午甜點</small>
-            </div>
-            <h3>甜點：grenier ＆ Dekasan 三明治</h3>
-            <p>先朝聖茶屋町附近的熱門網美烤千層酥甜點 grenier，傍晚再外帶份量十足的 Dekasan 三明治帶著走[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=grenier+梅田">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>心齋橋</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 宵夜晚餐</small>
-            </div>
-            <h3>晚餐：心齋橋宮田麵兒-大阪沾麵</h3>
-            <p>逛完梅田夜景後的深夜重頭戲[cite: 2]，用一碗麵條極具彈牙嚼勁、湯頭濃郁的宮田麵兒沾麵暖暖胃[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=宮田麵兒+心齋橋">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 05 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 05 — 12/30 (Wed)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>奈良</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 早上必吃</small>
-            </div>
-            <h3>點心：中谷堂 艾草麻糬</h3>
-            <p>除了現場超震撼、快如閃電的傳統搗麻糬秀外[cite: 2]，外皮沾滿黃豆粉、內餡紅豆綿密熱騰騰的麻糬更是極品[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=中谷堂+奈良">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>奈良公園邊緣</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 下午茶</small>
-            </div>
-            <h3>下午茶：水谷茶屋</h3>
-            <p>隱藏在春日大社綠蔭森林中的茅草屋茶屋，彷彿走入童話世界，坐下來喝杯茶配傳統日式點心非常療癒[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=水谷茶屋+奈良">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>東向商店街 / 難波</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 午晚餐</small>
-            </div>
-            <h3>午餐：東向商店街自選 ＆ 晚餐：大阪難波美食</h3>
-            <p>中午在奈良有頂棚的東向商店街隨意覓食[cite: 2]；晚上看完全景夕陽後回到大阪難波市區自選大餐[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=奈良東向商店街">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 06 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 06 — 12/31 (Thu)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>大阪</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 午餐時段</small>
-            </div>
-            <h3>午餐：Nishiya (にし家) 烏龍麵</h3>
-            <p>朝聖知名藝人 SANA 推薦的 Nishiya 烏龍麵[cite: 2]，體驗Q彈有勁的麵條與講究的湯頭調味[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=にし家+烏龍麵+大阪">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>大阪市區</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 下午甜點</small>
-            </div>
-            <h3>甜點：Melt Chocolate ＆ MooKEN 小泡芙</h3>
-            <p>午後散步的精緻點心時間[cite: 2]，大口咬下 MooKEN 外皮酥脆、爆漿內餡飽滿的小泡芙[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=MooKEN+泡芙+大阪">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>道頓堀</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 跨年晚餐</small>
-            </div>
-            <h3>晚餐：千房 千日前本店 (大阪燒)</h3>
-            <p>跨年夜的重頭戲大餐！在熱鬧非凡的道頓堀大啖經典的千房大阪燒[cite: 2]，厚實的醬汁與跳動的柴魚片絕配[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=千房+千日前本店">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 07 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 07 — 01/01 (Fri)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>伏見稻荷</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 元旦午餐</small>
-            </div>
-            <h3>午餐：Niku No Odakichi Fushimiinari ＆ Inariya</h3>
-            <p>元旦初詣大爆滿[cite: 2]！中午在伏見稻荷大社週邊享用 Niku No Odakichi[cite: 2]，並順道造訪老字號煎餅店 Inariya[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Niku+No+Odakichi+Fushimiinari">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>京都</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 下午點心</small>
-            </div>
-            <h3>點心：Marumochiya (まるもち家)</h3>
-            <p>超高人氣的水信玄餅（水滴蛋糕）或烤麻糬丸子，晶瑩剔透、入口即化，視覺與味覺的雙重享受[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=まるもち家+京都">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-weight: bold; margin-bottom: 8px;">
-                <span>京都</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 晚餐時段</small>
-            </div>
-            <h3>晚餐：Shokudo Days (Sh食堂 Days) / 一寸法師</h3>
-            <p>清水寺看完璀璨夜景後的豐盛晚餐首選，精緻的日式洋食洋溢著濃濃的溫馨感[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Shokudo+Days+京都">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 08 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 08 — 01/02 (Sat)</h3>
-    <div class="food-grid" style="margin-bottom: 24px;">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>黑門市場</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 早餐時段</small>
-            </div>
-            <h3>早餐：黑門市場海鮮街頭小吃 ＆ 哈密瓜雪糕</h3>
-            <p>在有「大阪廚房」之稱的黑門市場掃街，最後一定要來一份超吸睛、香甜濃郁的網美系哈密瓜雪糕甜點[cite: 2]！</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=黑門市場+大阪">開地圖</a>
-        </article>
-
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>難波 / 心齋橋</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">⏱ 中午 (已預約)</small>
-            </div>
-            <h3>午餐：味乃家 御好燒</h3>
-            <p>大阪最頂尖的老字號御好燒！由於人氣極高，必須提前一個月透過官方系統搶先預約[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=味乃家+御好燒+大阪">開地圖</a>
-        </article>
-    </div>
-
-    <!-- Day 09 -->
-    <h3 style="margin: 24px 0 12px; color: var(--brand); border-left: 4px solid var(--brand); padding-left: 8px;">Day 09 — 01/03 (Sun)</h3>
-    <div class="food-grid">
-        <article class="food-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span>關西機場</span>
-                <small style="color: var(--brand); font-weight: bold; background: #fff5f5; padding: 2px 8px; border-radius: 6px;">✈ 伴手禮 / 機上</small>
-            </div>
-            <h3>午餐：關西機場免稅店餐廳</h3>
-            <p>回國前的最後一站，辦理完託運後在免稅店做最後一輪伴手禮採購[cite: 2]，並在機場簡單享用午餐後登機[cite: 2]。</p>
-            <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=關西國際機場+免稅店">開地圖</a>
-        </article>
-    </div>
-</section> 
-
-<section id="hotels" style="margin-bottom:34px;">
-    <span class="section-kicker">Accommodation</span>
-    <h2>已訂住宿明細</h2>
-    <div class="hotel-list">
-        
-        <!-- 第一間：京都五條 -->
-        <div class="hotel" style="margin-bottom: 16px;">
-            <div class="date">2026/12/26-2026/12/27</div>
-            <div>
-                <h3 style="margin:0 0 4px">Fuji Hotel Kyoto Gojo</h3>
-                <p style="margin:0;color:var(--muted);font-size:14px">📍 日本〒600-8178 Kyoto, Shimogyo Ward, Kagiyacho, 330番地</p>
-                <p style="margin:4px 0 0;color:var(--muted);font-size:14px">📞 聯絡電話：+81-753665865 ｜ <span style="color:emerald;font-weight:bold;">入住 1 晚</span></p>
-                <div class="maplinks">
-                    <a href="https://maps.app.goo.gl/zyT1W3N9eSv3mGMy8" target="_blank">📍 Fuji Hotel Kyoto Gojo</a>
+                <!-- 第一間：京都五條 -->
+                <div class="hotel" style="margin-bottom: 16px;">
+                    <div class="date">2026/12/26-2026/12/27</div>
+                    <div>
+                        <h3 style="margin:0 0 4px">Fuji Hotel Kyoto Gojo</h3>
+                        <p style="margin:0;color:var(--muted);font-size:14px">📍 日本〒600-8178 Kyoto, Shimogyo Ward, Kagiyacho, 330番地</p>
+                        <p style="margin:4px 0 0;color:var(--muted);font-size:14px">📞 聯絡電話：+81-753665865 ｜ <span style="color:emerald;font-weight:bold;">入住 1 晚</span></p>
+                        <div class="maplinks">
+                            <a href="https://maps.app.goo.gl/zyT1W3N9eSv3mGMy8" target="_blank">📍 Fuji Hotel Kyoto Gojo</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div> <!-- 👈 修正：補上 hotel 的閉合標籤 -->
 
-        <!-- 第二間：西九條 -->
-        <div class="hotel" style="margin-bottom: 16px;">
-            <div class="date">2026/12/27-2026/12/29</div>
-            <div>
-                <h3 style="margin:0 0 4px">西九條包棟/公寓式住宅</h3>
-                <p style="margin:0;color:var(--muted);font-size:14px">📍 1-chōme-9-4 Nishikujō, 此花區, 大阪市, 日本</p>
-                <p style="margin:4px 0 0;color:var(--muted);font-size:14px">📞 聯絡電話：Airbnb ｜ <span style="color:emerald;font-weight:bold;">入住 2 晚 (鄰近環球影城),可洗衣服</span></p>
-                <div class="maplinks">
-                    <a href="https://maps.app.goo.gl/4PYoxR5BxonHSz3A8" target="_blank">📍 西九條包棟/公寓式住宅</a>
+                <!-- 第二間：西九條 -->
+                <div class="hotel" style="margin-bottom: 16px;">
+                    <div class="date">2026/12/27-2026/12/29</div>
+                    <div>
+                        <h3 style="margin:0 0 4px">西九條包棟/公寓式住宅</h3>
+                        <p style="margin:0;color:var(--muted);font-size:14px">📍 1-chōme-9-4 Nishikujō, 此花區, 大阪市, 日本</p>
+                        <p style="margin:4px 0 0;color:var(--muted);font-size:14px">📞 聯絡電話：Airbnb ｜ <span style="color:emerald;font-weight:bold;">入住 2 晚 (鄰近環球影城),可洗衣服</span></p>
+                        <div class="maplinks">
+                            <a href="https://maps.app.goo.gl/4PYoxR5BxonHSz3A8" target="_blank">📍 西九條包棟/公寓式住宅</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div> <!-- 👈 修正：補上 hotel 的閉合標籤 -->
 
-        <!-- 第三間：難波南 -->
-        <div class="hotel">
-            <div class="date">2026/12/29-2027/1/3</div>
-            <div>
-                <h3 style="margin:0 0 4px">難波南JUNCTION</h3>
-                <p style="margin:0;color:var(--muted);font-size:14px">📍 2-chōme-9-9 Ebisuhonmachi, 浪速區, 556-0013 大阪市, 日本</p>
-                <p style="margin:4px 0 0;color:var(--muted);font-size:14px">📞 聯絡電話：+81-8032299588 ｜ <span style="color:emerald;font-weight:bold;">入住 5 晚,房型：2張雙人床,可洗衣服</span></p>
-                <div class="maplinks">
-                    <a href="https://maps.app.goo.gl/BjtbseUjruJs1JjP6" target="_blank">📍 難波南JUNCTION</a>
+                <!-- 第三間：難波南 -->
+                <div class="hotel">
+                    <div class="date">2026/12/29-2027/1/3</div>
+                    <div>
+                        <h3 style="margin:0 0 4px">難波南JUNCTION</h3>
+                        <p style="margin:0;color:var(--muted);font-size:14px">📍 2-chōme-9-9 Ebisuhonmachi, 浪速區, 556-0013 大阪市, 日本</p>
+                        <p style="margin:4px 0 0;color:var(--muted);font-size:14px">📞 聯絡電話：+81-8032299588 ｜ <span style="color:emerald;font-weight:bold;">入住 5 晚,房型：2張雙人床,可洗衣服</span></p>
+                        <div class="maplinks">
+                            <a href="https://maps.app.goo.gl/BjtbseUjruJs1JjP6" target="_blank">📍 難波南JUNCTION</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div> <!-- 👈 修正：補上 hotel 的閉合標籤 -->
 
-    </div>
-</section>
+            </div>
+        </section>
 
         <section id="checklist-sec" style="margin-bottom:42px;">
-    <span class="section-kicker">Checklist</span>
-    <h2>🧳 攜帶物品檢查清單</h2>
-    
-    <!-- 大外層格線，負責將四大群組排成漂亮的卡片欄位 -->
-    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
-        
-        <!-- 群組 1：📄 重要文件 -->
-        <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
-            <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">📄 重要文件</h4>
-            <label><input type="checkbox"><span>護照</span></label>
-            <label><input type="checkbox"><span>身分證+居留證</span></label>
-            <label><input type="checkbox"><span>交通卡</span></label>
-            <label><input type="checkbox"><span>日幣現金</span></label>
-            <label><input type="checkbox"><span>外幣卡</span></label>
-            <label><input type="checkbox"><span>機票</span></label>
-            <label><input type="checkbox"><span>飯店憑證</span></label>
-            <label><input type="checkbox"><span>VisitJapan Visa</span></label>
-        </div>
+            <span class="section-kicker">Checklist</span>
+            <h2>🧳 攜帶物品檢查清單</h2>
+            
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+                
+                <!-- 群組 1：📄 重要文件 -->
+                <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
+                    <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">📄 重要文件</h4>
+                    <label><input type="checkbox"><span>護照</span></label>
+                    <label><input type="checkbox"><span>身分證+居留證</span></label>
+                    <label><input type="checkbox"><span>交通卡</span></label>
+                    <label><input type="checkbox"><span>日幣現金</span></label>
+                    <label><input type="checkbox"><span>外幣卡</span></label>
+                    <label><input type="checkbox"><span>機票</span></label>
+                    <label><input type="checkbox"><span>飯店憑證</span></label>
+                    <label><input type="checkbox"><span>VisitJapan Visa</span></label>
+                </div>
 
-        <!-- 群組 2：🔌3C 產品 -->
-        <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
-            <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">🔌 3C 產品</h4>
-            <label><input type="checkbox"><span>轉接插頭+行充</span></label>
-            <label><input type="checkbox"><span>充電器+線</span></label>
-            <label><input type="checkbox"><span>DJI Pocket 3+充電線</span></label>
-        </div>
+                <!-- 群組 2：🔌3C 產品 -->
+                <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
+                    <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">🔌 3C 產品</h4>
+                    <label><input type="checkbox"><span>轉接插頭+行充</span></label>
+                    <label><input type="checkbox"><span>充電器+線</span></label>
+                    <label><input type="checkbox"><span>DJI Pocket 3+充電線</span></label>
+                </div>
 
-        <!-- 群組 3：👕個人衣物 -->
-        <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
-            <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">👕 個人衣物</h4>
-            <label><input type="checkbox"><span>衣服</span></label>
-            <label><input type="checkbox"><span>褲子</span></label>
-            <label><input type="checkbox"><span>防寒/厚外套</span></label>
-            <label><input type="checkbox"><span>圍巾（非必需）</span></label>
-            <label><input type="checkbox"><span>內衣褲</span></label>
-            <label><input type="checkbox"><span>襪子</span></label>
-            <label><input type="checkbox"><span>太陽眼鏡</span></label>
-            <label><input type="checkbox"><span>折疊傘（非必需）</span></label>
-            <label><input type="checkbox"><span>常備藥(腸胃、感冒藥)</span></label>
-        </div>
+                <!-- 群組 3：👕個人衣物 -->
+                <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
+                    <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">👕 個人衣物</h4>
+                    <label><input type="checkbox"><span>衣服</span></label>
+                    <label><input type="checkbox"><span>褲子</span></label>
+                    <label><input type="checkbox"><span>防寒/厚外套</span></label>
+                    <label><input type="checkbox"><span>圍巾（非必需）</span></label>
+                    <label><input type="checkbox"><span>內衣褲</span></label>
+                    <label><input type="checkbox"><span>襪子</span></label>
+                    <label><input type="checkbox"><span>太陽眼鏡</span></label>
+                    <label><input type="checkbox"><span>折疊傘（非必需）</span></label>
+                    <label><input type="checkbox"><span>常備藥(腸胃、感冒藥)</span></label>
+                </div>
 
-        <!-- 群組 4：🧴盥洗保養 -->
-        <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
-            <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">🧴 盥洗、保養用品</h4>
-            <label><input type="checkbox"><span>保養品</span></label>
-            <label><input type="checkbox"><span>化妝品</span></label>
-            <label><input type="checkbox"><span>防曬</span></label>
-            <label><input type="checkbox"><span>衛生棉(非必需)</span></label>
-            <label><input type="checkbox"><span>牙刷、牙膏</span></label>
-            <label><input type="checkbox"><span>面紙、濕紙巾</span></label>
-            <label><input type="checkbox"><span>隱眼+沖洗液</span></label>
-        </div>
+                <!-- 群組 4：🧴盥洗保養 -->
+                <div class="food-card" style="display: flex; flex-direction: column; gap: 8px;">
+                    <h4 class="font-bold text-rose-400" style="margin: 0 0 8px 0; color: var(--brand); font-size: 16px;">🧴 盥洗、保養用品</h4>
+                    <label><input type="checkbox"><span>保養品</span></label>
+                    <label><input type="checkbox"><span>化妝品</span></label>
+                    <label><input type="checkbox"><span>防曬</span></label>
+                    <label><input type="checkbox"><span>衛生棉(非必需)</span></label>
+                    <label><input type="checkbox"><span>牙刷、牙膏</span></label>
+                    <label><input type="checkbox"><span>面紙、濕紙巾</span></label>
+                    <label><input type="checkbox"><span>隱眼+沖洗液</span></label>
+                </div>
 
-    </div>
-</section>
+            </div>
+        </section>
+    </main>
+
     <button id="top">▲</button>
 
-    <footer style="text-center;text-align:center;padding:30px;font-size:12px;color:var(--muted);background:#fff;border-top:1px solid var(--line);">
+    <footer style="text-align:center;padding:30px;font-size:12px;color:var(--muted);background:#fff;border-top:1px solid var(--line);"> <!-- 👈 修正：移除錯誤拼寫 style="text-center;" -->
         © 2026-2027 大阪跨年小本本 🚀 祝旅途愉快！
     </footer>
 
@@ -695,9 +450,9 @@
         window.addEventListener('scroll',()=>{topBtn.style.display=scrollY>500?'block':'none'});
         topBtn.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
         
-        // 行李清單快取記憶
+        // 行李清單快取記憶（👈 修正：改用 #checklist-sec 當作搜尋標的，完美綁定 LocalStorage 記憶勾選狀態）
         const key='osakaTripChecklist';
-        const boxes=[...document.querySelectorAll('.checklist input')];
+        const boxes=[...document.querySelectorAll('#checklist-sec input')];
         try{const saved=JSON.parse(localStorage.getItem(key)||'[]');boxes.forEach((b,i)=>b.checked=!!saved[i]);}catch(e){}
         boxes.forEach((b,i)=>b.addEventListener('change',()=>localStorage.setItem(key,JSON.stringify(boxes.map(x=>x.checked)))));
 
